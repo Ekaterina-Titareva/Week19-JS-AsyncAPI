@@ -437,7 +437,11 @@ const makeTwentyFour = () => {
 //добавьте слушатель события
 document.querySelector('.b-24').addEventListener('click', makeTwentyFour);
 //Задание 25
-//В каком порядке числа выведутся в консоль?
+//В каком порядке числа выведутся в консоль?  
+//Ответ
+//1
+//3
+//2
 
 function makeTwentyFive() {
 	console.log(1);
@@ -451,13 +455,16 @@ function makeTwentyFive() {
 }
 
 //добавьте слушатель события
-
+document.querySelector('.b-25').addEventListener('click', makeTwentyFive);
 //Задание 26
 //Создайте функцию makeTwentySix, должна использовать `setTimeout` для отображения в консоли сообщения "Прошло 5 секунд" через 5 секунд. Вызывается функция по кнопке Задание 26.
 
 function makeTwentySix() {
-	//Ваш код
+	setTimeout(function () {
+		console.log("Прошло 5 секунд");
+	}, 5000);
 }
+
 
 document.querySelector('.b-26').addEventListener('click', makeTwentySix);
 
@@ -465,7 +472,9 @@ document.querySelector('.b-26').addEventListener('click', makeTwentySix);
 //Создайте функцию makeTwentySeven, должна использовать `setTimeout` для отображения в консоли сообщения "Прошло 2 секунды" через 2 секунды. Вызывается функция по кнопке Задание 27.
 
 function makeTwentySeven() {
-	//Ваш код
+	setTimeout(function () {
+		console.log("Прошло 2 секунды");
+	}, 2000);
 }
 
 document.querySelector('.b-27').addEventListener('click', makeTwentySeven);
@@ -474,7 +483,9 @@ document.querySelector('.b-27').addEventListener('click', makeTwentySeven);
 //Создайте функцию makeTwentyEight, которая использует `setInterval` для отображения в консоли сообщения "Прошло 3 секунды" каждые 3 секунды.
 
 function makeTwentyEight() {
-	//Ваш код
+	setInterval(function () {
+		console.log("Прошло 3 секунды");
+	}, 3000);
 }
 
 document.querySelector('.b-28').addEventListener('click', makeTwentyEight);
@@ -483,7 +494,9 @@ document.querySelector('.b-28').addEventListener('click', makeTwentyEight);
 //Создайте функцию makeTwentyNine, которая использует `setInterval` для отображения в консоли сообщения "Прошло 2 секунды" каждые 2 секунды.
 
 function makeTwentyNine() {
-	//Ваш код
+	setInterval(function () {
+		console.log("Прошло 2 секунды");
+	}, 2000);
 }
 
 document.querySelector('.b-29').addEventListener('click', makeTwentyNine);
@@ -492,7 +505,9 @@ document.querySelector('.b-29').addEventListener('click', makeTwentyNine);
 //Создайте функцию makeThirty, которая использует `setInterval` для отображения в консоли сообщения "Прошло 5 секунд" каждые 5 секунд.
 
 function makeThirty() {
-	//Ваш код
+	setInterval(function () {
+		console.log("Прошло 5 секунд");
+	}, 3000);
 }
 
 document.querySelector('.b-30').addEventListener('click', makeThirty);

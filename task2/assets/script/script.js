@@ -14,8 +14,8 @@ function showText() {
         const container = document.querySelector(".container");
         data.forEach(element => {
             container.innerHTML += `
-                <h2>${element.title}</h2>
-                <p>${element.body}</p>
+                <h2>Title: ${element.title}</h2>
+                <p>Text: ${element.body}</p>
                 `
         });
     })
